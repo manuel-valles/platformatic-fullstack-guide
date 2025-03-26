@@ -18,3 +18,10 @@ This guide will help you setup and run your first full-stack Platformatic app (a
 - Add a ![migration script](./web/movies-api/migrations/002.do.sql) to include the `quotes` table, and
   the property `likes`
 - Apply schema migrations (from the path `./web/movies-api/migrations`): `npx platformatic db migrations apply`
+
+## 4. Add Composer Service
+
+[Platformatic Composer](https://platformatic.dev/docs/next/composer/overview) is designed to automatically integrate microservices into one ecosystem, providing a single public API for more efficient management and deployment.
+
+- `npx create-platformatic`
+- ![Composer Config](./images/platformatic-composer.png)
