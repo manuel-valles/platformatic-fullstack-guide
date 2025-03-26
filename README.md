@@ -25,3 +25,11 @@ This guide will help you setup and run your first full-stack Platformatic app (a
 
 - `npx create-platformatic`
 - ![Composer Config](./images/platformatic-composer.png)
+
+## 5. Add a React App
+
+- `cd web`
+- `npm create vite@latest frontend -- --template react`
+- `cd frontend`
+- `npm i`
+- `npm run dev`
