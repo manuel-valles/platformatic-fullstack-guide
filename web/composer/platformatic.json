@@ -3,10 +3,13 @@
   "composer": {
     "services": [
       {
-        "id": "db",
+        "id": "movies-api",
         "openapi": {
           "url": "/documentation/json"
         }
+      },
+      {
+        "id": "frontend"
       }
     ],
     "refreshTimeout": 1000

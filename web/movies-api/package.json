@@ -5,11 +5,12 @@
     "test": "borp"
   },
   "devDependencies": {
-    "fastify": "^5.0.0",
-    "borp": "^0.19.0"
+    "borp": "^0.19.0",
+    "fastify": "^5.0.0"
   },
   "dependencies": {
-    "@platformatic/db": "^2.55.0"
+    "@platformatic/db": "^2.55.0",
+    "fluent-json-schema": "^5.0.0"
   },
   "engines": {
     "node": "^18.8.0 || >=20.6.0"
